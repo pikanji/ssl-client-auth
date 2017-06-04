@@ -3,6 +3,8 @@ These scripts create self-signed certificates and keys to establish client authe
 This script is mostly from [here](https://stackoverflow.com/a/43666288). Thanks to Mr. Parks.
 
 ## Steps to Create Certificates
+You can create these files on your local machine.
+
 #### Download Scripts
 ```
 git clone git@github.com:pikanji/ssl-client-auth.git
@@ -40,6 +42,8 @@ Open `.env` and update with the information of your server.
 ```
 
 ## Deploy to Server
+Following steps will be on the server.
+
 #### Place Certificate and Key on the Server and Enable HTTPS
 Assuming the web server is Apache2.4+, and RedHat base system.
 
